@@ -40,13 +40,16 @@ kluczu USB.
 W przypadku posiadania kilku kluczy, moduł instalujemy kilka razy w lokalizacji
 programu **ABC**.
 
-Należy kliknąć na jeden z poniższych linków, aby rozpocząć pobieranie:
+Należy wybrać jeden z poniższych linków, aby rozpocząć pobieranie:
 
 - [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6-3.0.0-win32.msi)
 - [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6p-3.0.0-win32.msi)
 - [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6r-3.0.0-win32.msi)
 - [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6s-3.0.0-win32.msi)
 - [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6t-3.0.0-win32.msi)
+
+Moduł należy zainstalować w lokalizacji programu **ABC** w folderze *EXE*
+(np. *C:\ABC6\EXE*).
 
 Spis zmian oraz poprzednie wersje są dostępne w serwisie
 [GitHub](https://github.com/pkpkbud/fundamenty/releases).
@@ -72,7 +75,7 @@ plik `stopa.exe` lub `lawa.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*). Pi
 uruchomienie należy wykonać z poziomu programu **ABC**.
 
 W każdym typie zadania, w którym wprowadzono podpory węzłowe lub typu `Słup` można
-zaprojektować stopę fundamentową. W programie `ABC Płyta` dla podpór typu `Ściana`
+zaprojektować stopę fundamentową. W programie **ABC Płyta** dla podpór typu `Ściana`
 można zaprojektować ławę fundamentową. W wynikach zadania w menu `Wymiar` dostępne
 są opcje `Projektowanie stopy` oraz `Projektowanie ławy`. W przypadku, gdy ta możliwość
 nie jest dostępna trzeba zaktualizować program **ABC** do wersji 6.23 lub wybrać z menu
@@ -95,11 +98,11 @@ opcji `Dodaj ciężar ściany`.
 
 ### Wybór miejsca
 
-Po zatwierdzeniu obciążeń plansza zostanie zamknięta i pokaże się rysunek modelu.
-W przypadku `Projektowanie stopy` pojawią się podpory skupione (słupy) z zaznaczonym
+Po zatwierdzeniu obciążeń plansza zostanie zamknięta i pokaże się rysunek modelu. W
+przypadku opcji `Projektowanie stopy` pojawią się podpory skupione (słupy) z zaznaczonym
 miejscem o największej reakcji pionowej, wybieramy projektowane miejsce. W przypadku
-opcji `Projektowanie ławy` pojawią się podpory liniowe typu `ściana`. Należy wybrać
-dwa skrajne węzły projektowanego miejsca. Istnieje możliwość dodania długości ściany.
+opcji `Projektowanie ławy` pojawią się podpory liniowe typu `ściana`, wybieramy dwa
+skrajne węzły projektowanego miejsca. Istnieje możliwość dodania długości ściany.
 Jej dodanie rozkłada obciążenie na większej długości.
 
 ### Podłoże
@@ -137,7 +140,7 @@ w oknie `Podłoże` są aktualizowane.
 ![image](https://user-images.githubusercontent.com/55211992/228655721-f8983152-7bee-40c3-b3e2-46d58f776afa.png)
 
 Jeżeli chcemy sprawdzić warunek naprężeń krawędziowych to możemy podać ich dopuszczalną
-wartość. Jeżeli chcemy sprawdzić osiadania wpisujemy `E0` edometryczny moduł ściśliwości
+wartość. Jeżeli chcemy sprawdzić osiadania wpisujemy `M0`, edometryczny moduł ściśliwości
 pierwotnej gruntu. `Wartość graniczna osiadania` definiowana jest w oknie `Opcje`.
 
 Przycisk `Budowla wysoka lub hala z suwnicą` zmienia parametry wymiarowania nie
@@ -149,29 +152,29 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 ![image](https://user-images.githubusercontent.com/55211992/228652433-8f259374-84bb-4acf-ae7e-a9d1669020ba.png)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
-głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z
-następujących elementów:
+głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
+poniżej elementów.
 
-**Ramka z danymi (po lewej stronie)**, gdzie podobnie jak na pierwszej planszy
+**Ramka z danymi po lewej stronie**, gdzie podobnie jak na pierwszej planszy
 podajemy wartości, tym razem dotyczące przyjętych wymiarów, materiałów, otuliny oraz
 zbrojenia. Kierunek X i Y jest zgodny z układem osi przyjętym w programach **ABC**.
 `Opis` można dowolnie modyfikować, domyślnie wpisany jest numer węzła.
 `Wysokość` fundamentu podajemy od poziomu posadowienia (głębokości wykopu) w górę.
 W celu policzenia ławy jako fundamentu pasmowego o nieskończonej długości należy
-odznaczyć opcję `Długość`. W `ABC Płyta` wymiary słupa, ściany oraz dane fundamentu
+odznaczyć opcję `Długość`. W **ABC Płyta** wymiary słupa, ściany oraz dane fundamentu
 są pobierane z opisu podpory. W innych przypadkach są przyjmowane wartości domyślne.
 
 ![image](https://user-images.githubusercontent.com/55211992/228462198-9d434be2-cbea-44a0-a916-e1c5ebf44b04.png)
 
-**Ramka z wynikami (u dołu oraz rysunek w części centralnej)**, która aktualizuje
-się po zmianie wartości parametrów lub po naciśnięciu przycisku `Oblicz`. Każda linijka
-zawiera opis sprawdzanego warunku, wzór oraz stopień wytężenia podany w procentach.
-W przypadku, gdy któryś warunek nie jest spełniony, kolor tekstu zmienia się na
-czerwony. Nie są również pokazywane sprawdzenia wyników o zerowym wytężeniu. Zachowanie
-to możemy zmienić w oknie `Ustawienia`. W przypadku wymiarowania na obwiednię sił, na
-końcu każdego wzoru w nawiasie kwadratowym podany jest decydujący przypadek. Po
-najechaniu na niego kursorem myszy wyświetlone zostaną wartości sił pobrane z ABC.
-Nazwa przypadku oznacza wiodące obciążenie dla warunku.
+**Ramka z wynikami u dołu**, która aktualizuje się po zmianie wartości parametrów
+lub po naciśnięciu przycisku `Oblicz`. Każda linijka zawiera opis sprawdzanego warunku,
+wzór oraz stopień wytężenia podany w procentach. W przypadku, gdy któryś warunek nie
+jest spełniony, kolor tekstu zmienia się na czerwony. Nie są również pokazywane
+sprawdzenia wyników o zerowym wytężeniu. Zachowanie to możemy zmienić w oknie
+`Ustawienia`. W przypadku wymiarowania na obwiednię sił, na końcu każdego wzoru w
+nawiasie kwadratowym podany jest decydujący przypadek. Po najechaniu na niego kursorem
+myszy wyświetlone zostaną wartości sił pobrane z programu**ABC**. Nazwa przypadku
+oznacza wiodące obciążenie dla warunku.
 
 Sprawdzane są następujące warunki nośności podłoża zgodnie z normą *PN-EN 1997-1*:
 - Opór pionowy podłoża (wyparcie) obliczony metodą analityczną według załącznika D.
@@ -194,7 +197,7 @@ na pierwszej planszy modułu [Podłoże](#podłoże).
 podłoża według punktu F.1 normy. Metoda ta jest analogiczna do zalecanych zasad normy
 *PN-81 B-03020*.
 - Stosunek nacisków na podłoże, który jest zaleceniem z doświadczeń praktyki projektowej
-- w celu ograniczenia nierównomiernego osiadania fundamentu. Sprawdzany jest poprzez
+w celu ograniczenia nierównomiernego osiadania fundamentu. Sprawdzany jest poprzez
 porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wartościami
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
@@ -202,39 +205,41 @@ dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 ![image](https://user-images.githubusercontent.com/55211992/228576517-9490ed53-df19-418b-91c2-0f4320972e86.png)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
-p. 12.9.3 normy *PN-EN 1992-1-1*. Jeżeli nie jest spełniony warunek to zbrojenie jest
-wymiarowane na zginanie zgodnie z normą *PN-EN 1992-1-1* w przekroju cofniętym od
-krawędzi na odległość 0,15 wymiaru słupa lub ściany. Podane wartości powierzchni
-zbrojenia dolnego wymaganego `As,req` oraz założonego `As,prov` dotyczą zbrojenia na
-całej długości krawędzi fundamentu. W przypadku ław fundamentowych nie uwzględniono
-konstrukcyjnego zbrojenia podłużnego. W przypadku stóp fundamentowych
-momenty gnące są wyznaczane domyślnie *metodą wydzielonych wsporników prostokątnych*,
-alternatywnie możemy wybrać *metodę wydzielonych wsporników trapezowych* w oknie
-`Ustawienia`. Zakłada się też, że zbrojenie w kierunku dłuższego boku fundamentu jest
-układane dołem (kierunek Y w przypadku stopy kwadratowej).
+p. 12.9.3 normy *PN-EN 1992-1-1*.
 
 ![image](https://user-images.githubusercontent.com/55211992/228656063-7a09d5d2-d63f-45d0-814c-33bc6a966aca.png)
 
-Nośność fundamentu słupa na przebicie (przez ścinanie) jest sprawdzana na obwodach
-kontrolnych leżących w odległości od 0,5d do 2d (co 0,1) od skraju słupa w myśl
-p. 6.4.2 (2) *PN-EN 1992-1-1*. Odległość krytyczna podana jest w opisie warunku.
-W przypadku, gdy obwód kontrolny wykracza poza obręb powierzchni stopy nie zachodzi
-mechanizm przebicia.
+Jeżeli nie jest spełniony warunek to zbrojenie jest wymiarowane na zginanie zgodnie
+z normą *PN-EN 1992-1-1* w przekroju cofniętym od krawędzi na odległość 0,15 wymiaru
+słupa lub ściany. Podane wartości powierzchni zbrojenia dolnego wymaganego `As,req`
+oraz założonego `As,prov` dotyczą zbrojenia na całej długości krawędzi fundamentu.
+W przypadku ław fundamentowych nie uwzględniono konstrukcyjnego zbrojenia podłużnego.
+W przypadku stóp fundamentowych momenty gnące są wyznaczane domyślnie
+*metodą wydzielonych wsporników prostokątnych*, alternatywnie możemy wybrać
+*metodę wydzielonych wsporników trapezowych* w oknie `Ustawienia`.
+Przyjęto, że zbrojenie w kierunku dłuższego boku stopy jest układane dołem
+(kierunek Y w przypadku stopy kwadratowej).
+
+Nośność fundamentu na przebicie (przez ścinanie) jest sprawdzana: dla stopy na
+obwodach kontrolnych leżących w odległości od 0,5d do 2d (co 0,1) od skraju słupa w
+myśl p. 6.4.2 (2) *PN-EN 1992-1-1*, a dla ławy w odległości 1d od skraju ściany.
+Odległość krytyczna podana jest w opisie warunku. W przypadku, gdy obwód kontrolny
+wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 
 ![image](https://user-images.githubusercontent.com/55211992/228577983-d72ffe38-819a-4c1d-b30f-2008869a8a7b.png)
 
-Rysunek w centralnej części przedstawia geometrię fundamentu w rzucie z góry w
+**Rysunek w centralnej części** przedstawia geometrię fundamentu w rzucie z góry w
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
 wartościami naprężeń maksymalnych i minimalnych na każdej krawędzi. Dodatkowo na
-rysunku jest układ osi, schematyczne zbrojenie oraz wartości objętości betonu i pola
-powierzchni podstawy stopy. Rysunek możemy przybliżać za pomocą kółka myszy oraz
-przesuwać trzymając lewy przycisk myszy. Przydaje się to w przypadku, gdy opisy są
-blisko siebie i są trudne do odczytania. Optymalne położenie rysunku w oknie najłatwiej
-uzyskać akceptując ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
+rysunku jest układ osi, schematyczne zbrojenie oraz poziomy w przypadku ławy.
+Rysunek możemy przybliżać za pomocą kółka myszy oraz przesuwać trzymając lewy
+przycisk myszy. Przydaje się to w przypadku, gdy opisy są blisko siebie i są trudne
+do odczytania. Optymalne położenie rysunku w oknie najłatwiej uzyskać akceptując
+ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
 
 ![image](https://user-images.githubusercontent.com/55211992/228580509-b5964d10-90c3-4ff4-bc28-ee5a64e5a906.png)
 
-**Ramka przycisków (po prawej)** zawierające następujące funkcje: 
+**Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje część z wynikami dla zadanych wartości.
 - Przycisk `Dobierz` w sposób iteracyjny szuka geometrii fundamentu, która spełnia
 wszystkie warunki sprawdzenia podłoża (nie dopuszcza odrywania). Jako kryterium
@@ -254,9 +259,9 @@ możemy przywrócić do wartości domyślnych przyciskiem `PN-EN`). W dodatkowyc
 obliczeniowych możemy wybrać, czy chcemy sprawdzać podłoże w warunkach pracy
 `z odpływem` lub `bez odpływu`. W przypadku wybrania opcji `bez odpływu` musimy podać
 wartość wytrzymałości gruntu na ścinanie. `Metoda wydzielonych wsporników` dotyczy
-sposobu wyznaczania momentów gnących do wymiarowania zbrojenia. Włączenie opcji
+sposobu wyznaczania momentów gnących do wymiarowania zbrojenia stopy. Włączenie opcji
 `Pokazuj sprawdzenie zerowych warunków normowych` powoduje, że w ramce z wynikami są
-pokazywane również warunki, gdzie stopień wytężenia wynosi 0% oraz zbrojenie
+pokazywane również warunki, gdzie stopień wytężenia wynosi 0% oraz zbrojenie.
 Osiadanie jest porównywane z wartością podaną w `Graniczna wartość osiadania`.
 `Maksymalna proporcja L:B w „Dobierz”` służy do wybrania maksymalnej proporcji długości
 do szerokości fundamentu szukanego funkcją `Dobierz`.
@@ -269,8 +274,7 @@ nowy plik *Nazwa_zadania.STO.DOCX* w lokalizacji zadania.
 - Przycisk `Aktualizuj` sprawdza, czy jest uruchomiona aktualna wersja modułu oraz w
 razie potrzeby umożliwia pobranie i aktualizację do najnowszej wersji. Plik instalacyjny
 jest pobierany w tle, trzeba poczekać na jego pobranie. Następnie moduł jest wyłączany
-i uruchamia się instalacja. Moduł należy zainstalować w lokalizacji programu **ABC**
-w folderze EXE (np. *C:\ABC6\EXE*).
+i uruchamia się instalacja. Zaleca się zamknięcie programu **ABC** przed instalacją.
 - Przycisk `Zamknij` zapisuje wyniki i zamyka moduł, skąd możemy przejść do wyboru
 kolejnego miejsca. W przypadku stóp fundamentowych miejsca zaprojektowane będą opisane
 `Stopa`, a podpowiadane będzie kolejne miejsce z największą reakcją pionową.
