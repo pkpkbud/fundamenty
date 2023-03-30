@@ -20,7 +20,7 @@ od ilości programów. Do pobrania, aktualizacji oraz autoryzacji wymagane jest
 połączenie z siecią.
 
 W celu zakupu prosimy o [kontakt](#kontakt). Zakupy w formie grupowej prowadzi firma
-[TINSERWIS](https://www.tinserwis.pl/), gdzie można uzyskać maksymalnie 50% rabatu!
+[TINSERWIS](https://www.tinserwis.pl/), gdzie można uzyskać maksymalnie 50% rabatu.
 
 ```
 Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
@@ -40,7 +40,7 @@ kluczu USB.
 W przypadku posiadania kilku kluczy, moduł instalujemy kilka razy w lokalizacji
 programu **ABC**.
 
-Należy wybrać jeden z poniższych linków, aby rozpocząć pobieranie:
+Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
 - [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6-3.0.0-win32.msi)
 - [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6p-3.0.0-win32.msi)
@@ -48,7 +48,7 @@ Należy wybrać jeden z poniższych linków, aby rozpocząć pobieranie:
 - [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6s-3.0.0-win32.msi)
 - [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6t-3.0.0-win32.msi)
 
-Moduł należy zainstalować w lokalizacji programu **ABC** w folderze *EXE*
+Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
 
 Spis zmian oraz poprzednie wersje są dostępne w serwisie
@@ -63,10 +63,10 @@ Spis zmian oraz poprzednie wersje są dostępne w serwisie
 ## Instrukcja
 
 Podczas korzystania z modułu, można uzyskać wskazówki dotyczące danej funkcji po
-najechaniu na opis kursorem myszy. Jednostki, w jakich podajemy wartości są podane po
-lewej stronie każdego pola. Wartości możemy zmieniać, wpisując na klawiaturze i
-zatwierdzając klawiszem `Enter`, klikając na strzałki `góra`-`dół` po prawej stronie
-od wartości lub wciskając strzałki `góra`-`dół` na klawiaturze.
+najechaniu na opis kursorem myszy. Jednostki, w jakich podane są wartości są po
+lewej stronie każdego pola. Wartości można zmieniać, wpisując na klawiaturze i
+zatwierdzając klawiszem `Enter`, klikając na znaki `góra`-`dół` po prawej stronie
+pola lub wciskając klawisze strzałek `↑`-`↓` na klawiaturze.
 
 ### Uruchomienie
 
@@ -100,8 +100,8 @@ opcji `Dodaj ciężar ściany`.
 
 Po zatwierdzeniu obciążeń plansza zostanie zamknięta i pokaże się rysunek modelu. W
 przypadku opcji `Projektowanie stopy` pojawią się podpory skupione (słupy) z zaznaczonym
-miejscem o największej reakcji pionowej, wybieramy projektowane miejsce. W przypadku
-opcji `Projektowanie ławy` pojawią się podpory liniowe typu `ściana`, wybieramy dwa
+miejscem o największej reakcji pionowej, należy wybrać projektowane miejsce. W przypadku
+opcji `Projektowanie ławy` pojawią się podpory liniowe typu `Ściana`, należy wybrać dwa
 skrajne węzły projektowanego miejsca. Istnieje możliwość dodania długości ściany.
 Jej dodanie rozkłada obciążenie na większej długości.
 
@@ -109,7 +109,7 @@ Jej dodanie rozkłada obciążenie na większej długości.
 
 ![image](https://user-images.githubusercontent.com/55211992/228652263-0fa9d14f-8169-4cfa-9e0d-0ea5332d2e9e.png)
 
-W oknie możemy zdefiniować `Głębokość posadowienia`, którą należy liczyć od najniższego
+W oknie można zdefiniować `Głębokość posadowienia`, którą należy liczyć od najniższego
 poziomu naziomu. W celu uwzględnienia sił wyporu spowodowanych wodą gruntową należy
 określić `Poziom wody gruntowej`.
 
@@ -120,8 +120,8 @@ poniżej poziomu posadowienia fundamentu według metody fundamentu zastępczego 
 warstwy gruntu oraz jaki jest rodzaj gruntu bezpośrednio pod podstawą fundamentu.
 Parametr ten służy do ustalenia zasięgu poszerzania podstawy fundamentu zastępczego.
 Po zatwierdzeniu przyciskiem `OK` sprawdzenie podłoża odbywa się na nowej głębokości.
-Jeżeli chcemy sprawdzić inną warstwę, możemy zrzucić listę z wynikami i wprowadzić nową
-głębokość oraz parametry geotechniczne.
+W celu sprawdzenia kolejnej warstwy gruntu, można skopiować listę z wynikami
+`Do schowka` lub `Do Worda` i wprowadzić nową głębokość oraz parametry geotechniczne.
 
 ![image](https://user-images.githubusercontent.com/55211992/228655858-e8eeb83a-e9c5-4fb1-9ac0-c54893c8fa84.png)
 
@@ -139,9 +139,10 @@ w oknie `Podłoże` są aktualizowane.
 
 ![image](https://user-images.githubusercontent.com/55211992/228655721-f8983152-7bee-40c3-b3e2-46d58f776afa.png)
 
-Jeżeli chcemy sprawdzić warunek naprężeń krawędziowych to możemy podać ich dopuszczalną
-wartość. Jeżeli chcemy sprawdzić osiadania wpisujemy `M0`, edometryczny moduł ściśliwości
-pierwotnej gruntu. `Wartość graniczna osiadania` definiowana jest w oknie `Opcje`.
+W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
+`Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć i podać
+`M0`, edometryczny moduł ściśliwości pierwotnej gruntu.
+`Wartość graniczna osiadania` definiowana jest w oknie `Ustawienia`.
 
 Przycisk `Budowla wysoka lub hala z suwnicą` zmienia parametry wymiarowania nie
 dopuszczając, aby siła wypadkowa wychodziła poza rdzeń podstawy oraz aby nie było za
@@ -155,11 +156,11 @@ Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
 poniżej elementów.
 
-**Ramka z danymi po lewej stronie**, gdzie podobnie jak na pierwszej planszy
-podajemy wartości, tym razem dotyczące przyjętych wymiarów, materiałów, otuliny oraz
+**Ramka z danymi po lewej stronie**, gdzie podobnie jak na pierwszej planszy należy
+podać wartości, tym razem dotyczące przyjętych wymiarów, materiałów, otuliny oraz
 zbrojenia. Kierunek X i Y jest zgodny z układem osi przyjętym w programach **ABC**.
 `Opis` można dowolnie modyfikować, domyślnie wpisany jest numer węzła.
-`Wysokość` fundamentu podajemy od poziomu posadowienia (głębokości wykopu) w górę.
+`Wysokość` fundamentu to wartość od poziomu posadowienia (głębokości wykopu) w górę.
 W celu policzenia ławy jako fundamentu pasmowego o nieskończonej długości należy
 odznaczyć opcję `Długość`. W **ABC Płyta** wymiary słupa, ściany oraz dane fundamentu
 są pobierane z opisu podpory. W innych przypadkach są przyjmowane wartości domyślne.
@@ -170,7 +171,7 @@ są pobierane z opisu podpory. W innych przypadkach są przyjmowane wartości do
 lub po naciśnięciu przycisku `Oblicz`. Każda linijka zawiera opis sprawdzanego warunku,
 wzór oraz stopień wytężenia podany w procentach. W przypadku, gdy któryś warunek nie
 jest spełniony, kolor tekstu zmienia się na czerwony. Nie są również pokazywane
-sprawdzenia wyników o zerowym wytężeniu. Zachowanie to możemy zmienić w oknie
+sprawdzenia wyników o zerowym wytężeniu. Zachowanie to można zmienić w oknie
 `Ustawienia`. W przypadku wymiarowania na obwiednię sił, na końcu każdego wzoru w
 nawiasie kwadratowym podany jest decydujący przypadek. Po najechaniu na niego kursorem
 myszy wyświetlone zostaną wartości sił pobrane z programu**ABC**. Nazwa przypadku
@@ -181,11 +182,11 @@ Sprawdzane są następujące warunki nośności podłoża zgodnie z normą *PN-E
 - Nośność na przesunięcie poziome (poślizg) obliczona zgodnie z punktem 6.5.3.
 - Sprawdzenie, czy siła wypadkowa znajduje się w rdzeniu podstawy. W przypadku
 większych wartości mimośrodów (> 1/6) pojawiają się naprężenia rozciągające w kontakcie
-grunt-fundament, czego konsekwencją jest powstanie szczeliny, tzw. odrywanie. Możemy
-dopuścić przyciskiem `Odrywanie` w przypadku, gdy obiekt budowlany nie ma wysoko
+grunt-fundament, czego konsekwencją jest powstanie szczeliny, tzw. odrywanie. Można
+dopuścić przyciskiem `ODRYWANIE` w przypadku, gdy obiekt budowlany nie ma wysoko
 umiejscowionego środka ciężkości. Zaleca się, aby były to szczególne i wyjątkowe
 sytuacje.
-- Gdy dopuścimy `Odrywanie`, to znaczy, że decydujemy się na poszerzony rdzeń podstawy
+- Gdy włączono opcję `ODRYWANIE`, to znaczy, że sprawdzany jest poszerzony rdzeń podstawy
 fundamentu (w przybliżeniu dwa razy większy od rdzenia właściwego). Sprawdzenie zasięgu
 szczeliny między podłożem i podstawą fundamentu jest przeprowadzone według normy
 *PN-81 B-03020* (p. 2.3 c), gdzie wymagane jest, aby zasięg szczeliny był mniejszy niż
@@ -215,7 +216,7 @@ słupa lub ściany. Podane wartości powierzchni zbrojenia dolnego wymaganego `A
 oraz założonego `As,prov` dotyczą zbrojenia na całej długości krawędzi fundamentu.
 W przypadku ław fundamentowych nie uwzględniono konstrukcyjnego zbrojenia podłużnego.
 W przypadku stóp fundamentowych momenty gnące są wyznaczane domyślnie
-*metodą wydzielonych wsporników prostokątnych*, alternatywnie możemy wybrać
+*metodą wydzielonych wsporników prostokątnych*, alternatywnie można wybrać
 *metodę wydzielonych wsporników trapezowych* w oknie `Ustawienia`.
 Przyjęto, że zbrojenie w kierunku dłuższego boku stopy jest układane dołem
 (kierunek Y w przypadku stopy kwadratowej).
@@ -232,7 +233,7 @@ wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
 wartościami naprężeń maksymalnych i minimalnych na każdej krawędzi. Dodatkowo na
 rysunku jest układ osi, schematyczne zbrojenie oraz poziomy w przypadku ławy.
-Rysunek możemy przybliżać za pomocą kółka myszy oraz przesuwać trzymając lewy
+Rysunek można przybliżać za pomocą kółka myszy oraz przesuwać trzymając lewy
 przycisk myszy. Przydaje się to w przypadku, gdy opisy są blisko siebie i są trudne
 do odczytania. Optymalne położenie rysunku w oknie najłatwiej uzyskać akceptując
 ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
@@ -249,21 +250,21 @@ fundamentowej maksymalną proporcję długości do szerokości można zmienić w
 dużych wartościach sił lub słabym podłożu mogą trwać dłuższą chwilę.
 - Przycisk `Podłoże` otwiera ponownie wcześniej opisane okno [Podłoże](#podłoże).
 - Przycisk `Obciążenia` otwiera okno z wartościami obliczeniowych sił skupionych i
-rozłożonych. W przypadku, gdy wymiarujemy na jeden wariant wszystkie wartości możemy
-dowolnie modyfikować. W przypadku, gdy wymiarujemy na obwiednię sił dopuszczalna jest
+rozłożonych. W przypadku, gdy wybrano jeden wariant obciążeń wszystkie wartości można
+dowolnie modyfikować. W przypadku, gdy wybrano obwiednię sił dopuszczalna jest
 tylko modyfikacja sił rozłożonych naziomu (stałych). Przycisk z czerwonym `Z`
 zeruje wszystkie obciążenia, ponowne wciśnięcie przywraca wartości przed zerowaniem.
 - Przycisk `Ustawienia` zawiera dodatkowe opcje obliczeniowe oraz konfigurację wartości
 parametrów takich jak dane materiałowe i częściowe współczynniki bezpieczeństwa (które
-możemy przywrócić do wartości domyślnych przyciskiem `PN-EN`). W dodatkowych opcjach
-obliczeniowych możemy wybrać, czy chcemy sprawdzać podłoże w warunkach pracy
-`z odpływem` lub `bez odpływu`. W przypadku wybrania opcji `bez odpływu` musimy podać
+można przywrócić do wartości domyślnych przyciskiem `PN-EN`). W dodatkowych opcjach
+obliczeniowych można wybrać, czy podłoże sprawdzane jest w warunkach pracy
+`z odpływem` czy `bez odpływu`. W przypadku wybrania opcji `bez odpływu` należy podać
 wartość wytrzymałości gruntu na ścinanie. `Metoda wydzielonych wsporników` dotyczy
 sposobu wyznaczania momentów gnących do wymiarowania zbrojenia stopy. Włączenie opcji
 `Pokazuj sprawdzenie zerowych warunków normowych` powoduje, że w ramce z wynikami są
 pokazywane również warunki, gdzie stopień wytężenia wynosi 0% oraz zbrojenie.
 Osiadanie jest porównywane z wartością podaną w `Graniczna wartość osiadania`.
-`Maksymalna proporcja L:B w „Dobierz”` służy do wybrania maksymalnej proporcji długości
+`Maksymalna proporcja L:B w "Dobierz"` służy do wybrania maksymalnej proporcji długości
 do szerokości fundamentu szukanego funkcją `Dobierz`.
 - Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
 modułu schowek zostaje wyczyszczony.
@@ -275,9 +276,9 @@ nowy plik *Nazwa_zadania.STO.DOCX* w lokalizacji zadania.
 razie potrzeby umożliwia pobranie i aktualizację do najnowszej wersji. Plik instalacyjny
 jest pobierany w tle, trzeba poczekać na jego pobranie. Następnie moduł jest wyłączany
 i uruchamia się instalacja. Zaleca się zamknięcie programu **ABC** przed instalacją.
-- Przycisk `Zamknij` zapisuje wyniki i zamyka moduł, skąd możemy przejść do wyboru
+- Przycisk `Zamknij` zapisuje wyniki i zamyka moduł, skąd można przejść do wyboru
 kolejnego miejsca. W przypadku stóp fundamentowych miejsca zaprojektowane będą opisane
-`Stopa`, a podpowiadane będzie kolejne miejsce z największą reakcją pionową.
+*Stopa*, a podpowiadane będzie kolejne miejsce z największą reakcją pionową.
 - Zaznaczenie opcji `Domyślne` powoduje, że po zamknięciu modułu bieżące ustawienia
 zostają zapisane jako domyślne do wymiarowania kolejnych miejsc.
 
