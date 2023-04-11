@@ -42,11 +42,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6-3.0.0-win32.msi)
-- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6p-3.0.0-win32.msi)
-- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6r-3.0.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6s-3.0.0-win32.msi)
-- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/3.0.0/Fundamenty-ABC6t-3.0.0-win32.msi)
+- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6-3.1.0-win32.msi)
+- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6p-3.1.0-win32.msi)
+- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6r-3.1.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6s-3.1.0-win32.msi)
+- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6t-3.1.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -94,7 +94,7 @@ ponieważ fundamenty będą projektowane na te same obciążenia co użyte w że
 również możliwość dodania ciężaru własnego ścian i słupów do obciążeń po włączeniu
 opcji `Dodaj ciężar ściany`.
 
-![image](https://user-images.githubusercontent.com/55211992/228655573-90d33b89-6310-4e69-af37-fd3ab4dccca1.png)
+![image](https://user-images.githubusercontent.com/55211992/231167852-1762ad7a-526c-459e-b671-69180c611638.png)
 
 ### Wybór miejsca
 
@@ -107,7 +107,7 @@ Jej dodanie rozkłada obciążenie na większej długości.
 
 ### Podłoże
 
-![image](https://user-images.githubusercontent.com/55211992/228652263-0fa9d14f-8169-4cfa-9e0d-0ea5332d2e9e.png)
+![image](https://user-images.githubusercontent.com/55211992/231167478-67267ef4-cae9-4553-b2b6-3f3db5b34826.png)
 
 W oknie można zdefiniować `Głębokość posadowienia`, którą należy liczyć od najniższego
 poziomu naziomu. W celu uwzględnienia sił wyporu spowodowanych wodą gruntową należy
@@ -137,7 +137,7 @@ zagęszczenia i wilgotność (grunty niespoiste) lub stopień plastyczności i t
 konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `OK` wartości parametrów
 w oknie `Podłoże` są aktualizowane.
 
-![image](https://user-images.githubusercontent.com/55211992/228655721-f8983152-7bee-40c3-b3e2-46d58f776afa.png)
+![image](https://user-images.githubusercontent.com/55211992/231169541-c2458cf9-adfb-4162-8989-cabd4d8284e7.png)
 
 W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
 `Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć i podać
@@ -150,7 +150,7 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://user-images.githubusercontent.com/55211992/228652433-8f259374-84bb-4acf-ae7e-a9d1669020ba.png)
+![image](https://user-images.githubusercontent.com/55211992/231168603-0f71a228-2fd0-48c1-b64c-52045751346e.png)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -203,16 +203,17 @@ porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wart
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
 
-![image](https://user-images.githubusercontent.com/55211992/228576517-9490ed53-df19-418b-91c2-0f4320972e86.png)
+![image](https://user-images.githubusercontent.com/55211992/231169119-90765799-84b9-4ee0-a88e-31e09d562a43.png)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
-p. 12.9.3 normy *PN-EN 1992-1-1*.
+p. 12.9.3 normy *PN-EN 1992-1-1*. Wynik koloru pomarańczowego oznacza, że wysokość
+fundamentu jest mniejsza niż zalecany podwójny wysięg odsadzki.
 
-![image](https://user-images.githubusercontent.com/55211992/228656063-7a09d5d2-d63f-45d0-814c-33bc6a966aca.png)
+![image](https://user-images.githubusercontent.com/55211992/231170127-d66337d6-5894-4ab7-8127-d15cd6b0b90f.png)
 
 Jeżeli nie jest spełniony warunek to zbrojenie jest wymiarowane na zginanie zgodnie
 z normą *PN-EN 1992-1-1* w przekroju cofniętym od krawędzi na odległość 0,15 wymiaru
-słupa lub ściany. Podane wartości powierzchni zbrojenia dolnego wymaganego `As,req`
+słupa lub ściany. Podane wartości powierzchni zbrojenia wymaganego `As,req`
 oraz założonego `As,prov` dotyczą zbrojenia na całej długości krawędzi fundamentu.
 W przypadku ław fundamentowych nie uwzględniono konstrukcyjnego zbrojenia podłużnego.
 W przypadku stóp fundamentowych momenty gnące są wyznaczane domyślnie
@@ -227,7 +228,7 @@ myśl p. 6.4.2 (2) *PN-EN 1992-1-1*, a dla ławy w odległości 1d od skraju śc
 Odległość krytyczna podana jest w opisie warunku. W przypadku, gdy obwód kontrolny
 wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 
-![image](https://user-images.githubusercontent.com/55211992/228577983-d72ffe38-819a-4c1d-b30f-2008869a8a7b.png)
+![image](https://user-images.githubusercontent.com/55211992/231169246-4effd7b1-4a5e-45d6-ba1c-3aaaace5e68b.png)
 
 **Rysunek w centralnej części** przedstawia geometrię fundamentu w rzucie z góry w
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
@@ -241,7 +242,7 @@ ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
 ![image](https://user-images.githubusercontent.com/55211992/228580509-b5964d10-90c3-4ff4-bc28-ee5a64e5a906.png)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
-- Przycisk `Oblicz` aktualizuje część z wynikami dla zadanych wartości.
+- Przycisk `Oblicz` aktualizuje rysunek i część z wynikami dla zadanych wartości.
 - Przycisk `Dobierz` w sposób iteracyjny szuka geometrii fundamentu, która spełnia
 wszystkie warunki sprawdzenia podłoża (nie dopuszcza odrywania). Jako kryterium
 optymalnej geometrii przyjęto najmniejszą powierzchnię podstawy. W przypadku stopy
@@ -261,11 +262,12 @@ obliczeniowych można wybrać, czy podłoże sprawdzane jest w warunkach pracy
 `z odpływem` czy `bez odpływu`. W przypadku wybrania opcji `bez odpływu` należy podać
 wartość wytrzymałości gruntu na ścinanie. `Metoda wydzielonych wsporników` dotyczy
 sposobu wyznaczania momentów gnących do wymiarowania zbrojenia stopy. Włączenie opcji
-`Pokazuj sprawdzenie zerowych warunków normowych` powoduje, że w ramce z wynikami są
-pokazywane również warunki, gdzie stopień wytężenia wynosi 0% oraz zbrojenie.
-Osiadanie jest porównywane z wartością podaną w `Graniczna wartość osiadania`.
-`Maksymalna proporcja L:B w "Dobierz"` służy do wybrania maksymalnej proporcji długości
-do szerokości fundamentu szukanego funkcją `Dobierz`.
+`Pokazuj sprawdzenie zerowych warunków i minimalne zbrojenie` powoduje, że w ramce z
+wynikami są pokazywane również warunki, gdy stopień wytężenia wynosi 0% oraz sprawia,
+że fundament jest liczony jako żelbetowy. Osiadanie jest porównywane z wartością
+podaną w `Graniczna wartość osiadania`. `Maksymalna proporcja L:B w "Dobierz"` służy
+do wybrania maksymalnej proporcji długości do szerokości stopy fundamentowej
+szukanej funkcją `Dobierz`. Wybranie `1:1` sprawia, że stopa w rzucie jest kwadratowa.
 - Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
 modułu schowek zostaje wyczyszczony.
 - Przycisk `Do Worda` otwiera nowy dokument zawierający notkę obliczeniową z rysunkiem
