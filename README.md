@@ -5,7 +5,9 @@
 Moduł do szybkiego projektowania fundamentów bezpośrednich zgodnie z Eurokodami w
 programach **ABC** firmy [PRO-SOFT](https://www.pro-soft.gliwice.pl/).
 
-W celu zapoznania się z możliwościami modułu można obejrzeć [wideo](#wideo).
+W celu zapoznania się z możliwościami modułu można obejrzeć [wideo](#wideo)
+lub go [zainstalować](#instalacja). Przed [zakupem](#zakup) działa w trybie DEMO,
+gdzie nie można zmieniać parametrów podłoża.
 Szczegółowy opis działania zawarty jest w [instrukcji](#instrukcja).
 
 ## Zakup
@@ -42,11 +44,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6-3.1.0-win32.msi)
-- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6p-3.1.0-win32.msi)
-- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6r-3.1.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6s-3.1.0-win32.msi)
-- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/3.1.0/Fundamenty-ABC6t-3.1.0-win32.msi)
+- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6-4.0.0-win32.msi)
+- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6p-4.0.0-win32.msi)
+- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6r-4.0.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6s-4.0.0-win32.msi)
+- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6t-4.0.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -78,10 +80,10 @@ W każdym typie zadania, w którym wprowadzono podpory węzłowe lub typu `Słup
 zaprojektować stopę fundamentową. W programie **ABC Płyta** dla podpór typu `Ściana`
 można zaprojektować ławę fundamentową. W wynikach zadania w menu `Wymiar` dostępne
 są opcje `Projektowanie stopy` oraz `Projektowanie ławy`. W przypadku, gdy ta możliwość
-nie jest dostępna trzeba zaktualizować program **ABC** do wersji 6.23 lub wybrać z menu
-opcję `Pokaż → Wybór wymiarowania`.
+nie jest dostępna trzeba zaktualizować program **ABC** do wersji 6.23, włączyć pełny
+zakres menu w **ABC** przyciskiem "M" lub wybrać z menu opcję `Pokaż → Wybór wymiarowania`.
 
-![image](https://user-images.githubusercontent.com/55211992/228655469-e4dd852d-1a4b-41f7-8c4c-1b7da20f13c9.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/775bd5e1-657d-4b8f-a272-fb3ec5c52b8e)
 
 ### Obciążenia
 
@@ -92,9 +94,9 @@ własne kombinacje wg PN-EN, to wtedy będzie można je wybrać. Jeśli projekto
 fundamentów było poprzedzone wymiarowaniem żelbetu, to nie będzie pytania o obciążenia,
 ponieważ fundamenty będą projektowane na te same obciążenia co użyte w żelbecie. Jest
 również możliwość dodania ciężaru własnego ścian i słupów do obciążeń po włączeniu
-opcji `Dodaj ciężar ściany`.
+opcji `Dodaj ciężar ściany`. Przycisk `Usuń` usuwa wcześniej zadane miejsca.
 
-![image](https://user-images.githubusercontent.com/55211992/231167852-1762ad7a-526c-459e-b671-69180c611638.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/872270df-3ec7-4280-8d68-b1a4ad738b21)
 
 ### Wybór miejsca
 
@@ -107,7 +109,7 @@ Jej dodanie rozkłada obciążenie na większej długości.
 
 ### Podłoże
 
-![image](https://user-images.githubusercontent.com/55211992/231167478-67267ef4-cae9-4553-b2b6-3f3db5b34826.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/018451d4-eb38-4c25-b58e-51d8cd049219)
 
 W oknie można zdefiniować `Głębokość posadowienia`, którą należy liczyć od najniższego
 poziomu naziomu. W celu uwzględnienia sił wyporu spowodowanych wodą gruntową należy
@@ -123,25 +125,24 @@ Po zatwierdzeniu przyciskiem `OK` sprawdzenie podłoża odbywa się na nowej gł
 W celu sprawdzenia kolejnej warstwy gruntu, można skopiować listę z wynikami
 `Do schowka` lub `Do Worda` i wprowadzić nową głębokość oraz parametry geotechniczne.
 
-![image](https://user-images.githubusercontent.com/55211992/228655858-e8eeb83a-e9c5-4fb1-9ac0-c54893c8fa84.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/a3d827cb-d974-4a27-92d6-dce7b5996865)
 
 W celu definicji podłoża należy podać charakterystyczne wartości parametrów
 geotechnicznych na podstawie badań geologicznych gruntu lub z normowych tablic.
-Przycisk `PN-B` umożliwia wprowadzenie parametrów geotechnicznych według metody B
-normy *PN-81 B-03020* oraz zalecane dopuszczalne naprężenia według tabeli 12-2 książki
-*Zarys geotechniki* Zenona Wiłuna. Wartości te są ustalane na podstawie zależności
-korelacyjnych i mogą służyć jako wskazówka. Według Eurokodu powinno się projektować na
-wartościach charakterystycznych uzyskanych bezpośrednio z badań podłoża. Po wyborze z
-menu rodzaju gruntu należy podać jego charakterystyczny parametr jak: stopień
-zagęszczenia i wilgotność (grunty niespoiste) lub stopień plastyczności i typ
-konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `OK` wartości parametrów
-w oknie `Podłoże` są aktualizowane.
+Przycisk `Metoda B normy PN-81 B-03020` umożliwia wprowadzenie parametrów geotechnicznych
+na podstawie zależności korelacyjnych z normy `PN-81 B-03020` oraz zalecane dopuszczalne
+naprężenia według tabeli 12-2 książki *Zarys geotechniki* Zenona Wiłuna.
+Po wyborze z menu rodzaju gruntu należy podać jego charakterystyczny parametr jak:
+stopień zagęszczenia i wilgotność (grunty niespoiste) lub stopień plastyczności
+i typ konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `OK` wartości
+parametrów w oknie `Podłoże` są aktualizowane oraz blokowane.
+W celu ich zmiany należy odznaczyć opcję `Metoda B normy PN-81 B-03020`.
 
 ![image](https://user-images.githubusercontent.com/55211992/231169541-c2458cf9-adfb-4162-8989-cabd4d8284e7.png)
 
 W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
-`Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć i podać
-`M0`, edometryczny moduł ściśliwości pierwotnej gruntu.
+`Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć
+`Sprawdź osiadanie` i podać `M0`, edometryczny moduł ściśliwości pierwotnej gruntu.
 `Wartość graniczna osiadania` definiowana jest w oknie `Ustawienia`.
 
 Przycisk `Budowla wysoka lub hala z suwnicą` zmienia parametry wymiarowania nie
@@ -150,7 +151,7 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://user-images.githubusercontent.com/55211992/231168603-0f71a228-2fd0-48c1-b64c-52045751346e.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/a4f95e4f-5f3f-4c4a-8140-bfc2da9e4424)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -165,7 +166,7 @@ W celu policzenia ławy jako fundamentu pasmowego o nieskończonej długości na
 odznaczyć opcję `Długość`. W **ABC Płyta** wymiary słupa, ściany oraz dane fundamentu
 są pobierane z opisu podpory. W innych przypadkach są przyjmowane wartości domyślne.
 
-![image](https://user-images.githubusercontent.com/55211992/228462198-9d434be2-cbea-44a0-a916-e1c5ebf44b04.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/7c280982-7f00-4da0-ae3f-20141f9460d6)
 
 **Ramka z wynikami u dołu**, która aktualizuje się po zmianie wartości parametrów
 lub po naciśnięciu przycisku `Oblicz`. Każda linijka zawiera opis sprawdzanego warunku,
@@ -174,7 +175,7 @@ jest spełniony, kolor tekstu zmienia się na czerwony. Nie są również pokazy
 sprawdzenia wyników o zerowym wytężeniu. Zachowanie to można zmienić w oknie
 `Ustawienia`. W przypadku wymiarowania na obwiednię sił, na końcu każdego wzoru w
 nawiasie kwadratowym podany jest decydujący przypadek. Po najechaniu na niego kursorem
-myszy wyświetlone zostaną wartości sił pobrane z programu**ABC**. Nazwa przypadku
+myszy wyświetlone zostaną wartości sił pobrane z programu **ABC**. Nazwa przypadku
 oznacza wiodące obciążenie dla warunku.
 
 Sprawdzane są następujące warunki nośności podłoża zgodnie z normą *PN-EN 1997-1*:
@@ -203,13 +204,13 @@ porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wart
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
 
-![image](https://user-images.githubusercontent.com/55211992/231169119-90765799-84b9-4ee0-a88e-31e09d562a43.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/b1b29b24-b869-4fa5-a34f-5b5530793255)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
 p. 12.9.3 normy *PN-EN 1992-1-1*. Wynik koloru pomarańczowego oznacza, że wysokość
 fundamentu jest mniejsza niż zalecany podwójny wysięg odsadzki.
 
-![image](https://user-images.githubusercontent.com/55211992/231170127-d66337d6-5894-4ab7-8127-d15cd6b0b90f.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/b8121615-3bf9-4483-900a-1dadff3498ee)
 
 Jeżeli nie jest spełniony warunek to zbrojenie jest wymiarowane na zginanie zgodnie
 z normą *PN-EN 1992-1-1* w przekroju cofniętym od krawędzi na odległość 0,15 wymiaru
@@ -228,7 +229,7 @@ myśl p. 6.4.2 (2) *PN-EN 1992-1-1*, a dla ławy w odległości 1d od skraju śc
 Odległość krytyczna podana jest w opisie warunku. W przypadku, gdy obwód kontrolny
 wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 
-![image](https://user-images.githubusercontent.com/55211992/231169246-4effd7b1-4a5e-45d6-ba1c-3aaaace5e68b.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/67fe7b72-453c-497b-9fd4-f6df387edc0a)
 
 **Rysunek w centralnej części** przedstawia geometrię fundamentu w rzucie z góry w
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
@@ -239,7 +240,7 @@ przycisk myszy. Przydaje się to w przypadku, gdy opisy są blisko siebie i są 
 do odczytania. Optymalne położenie rysunku w oknie najłatwiej uzyskać akceptując
 ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
 
-![image](https://user-images.githubusercontent.com/55211992/228580509-b5964d10-90c3-4ff4-bc28-ee5a64e5a906.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/dc16b0ac-c4fb-4cc5-8e7b-e8ca68ddb243)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje rysunek i część z wynikami dla zadanych wartości.
@@ -251,13 +252,12 @@ fundamentowej maksymalną proporcję długości do szerokości można zmienić w
 dużych wartościach sił lub słabym podłożu mogą trwać dłuższą chwilę.
 - Przycisk `Podłoże` otwiera ponownie wcześniej opisane okno [Podłoże](#podłoże).
 - Przycisk `Obciążenia` otwiera okno z wartościami obliczeniowych sił skupionych i
-rozłożonych. W przypadku, gdy wybrano jeden wariant obciążeń wszystkie wartości można
-dowolnie modyfikować. W przypadku, gdy wybrano obwiednię sił dopuszczalna jest
-tylko modyfikacja sił rozłożonych naziomu (stałych). Przycisk z czerwonym `Z`
+rozłożonych. Po włączeniu opcji `Własne` wszystkie wartości obciążeń można
+dowolnie modyfikować oraz można wybrać wariant z obwiedni sił. Przycisk z czerwonym `Z`
 zeruje wszystkie obciążenia, ponowne wciśnięcie przywraca wartości przed zerowaniem.
 - Przycisk `Ustawienia` zawiera dodatkowe opcje obliczeniowe oraz konfigurację wartości
 parametrów takich jak dane materiałowe i częściowe współczynniki bezpieczeństwa (które
-można przywrócić do wartości domyślnych przyciskiem `PN-EN`). W dodatkowych opcjach
+można przywrócić do wartości normowych przyciskiem `NA.2`). W dodatkowych opcjach
 obliczeniowych można wybrać, czy podłoże sprawdzane jest w warunkach pracy
 `z odpływem` czy `bez odpływu`. W przypadku wybrania opcji `bez odpływu` należy podać
 wartość wytrzymałości gruntu na ścinanie. `Metoda wydzielonych wsporników` dotyczy
@@ -284,7 +284,7 @@ kolejnego miejsca. W przypadku stóp fundamentowych miejsca zaprojektowane będ�
 - Zaznaczenie opcji `Domyślne` powoduje, że po zamknięciu modułu bieżące ustawienia
 zostają zapisane jako domyślne do wymiarowania kolejnych miejsc.
 
-![image](https://user-images.githubusercontent.com/55211992/228655366-15617c16-6214-4321-9291-0182c6542b2c.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/e88f781a-19ab-42cf-b5f1-507f2f21484c)
 
 ## Kontakt
 
