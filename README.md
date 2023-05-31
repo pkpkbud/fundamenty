@@ -44,11 +44,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6-4.0.0-win32.msi)
-- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6p-4.0.0-win32.msi)
-- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6r-4.0.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6s-4.0.0-win32.msi)
-- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/4.0.0/Fundamenty-ABC6t-4.0.0-win32.msi)
+- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6-4.1.0-win32.msi)
+- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6p-4.1.0-win32.msi)
+- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6r-4.1.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6s-4.1.0-win32.msi)
+- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6t-4.1.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -72,9 +72,11 @@ pola lub wciskając klawisze strzałek `↑`-`↓` na klawiaturze.
 
 ### Uruchomienie
 
-Moduł można uruchomić samodzielnie w formie kalkulatora. W tym celu należy uruchomić
-plik `stopa.exe` lub `lawa.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*). Pierwsze
-uruchomienie należy wykonać z poziomu programu **ABC**.
+Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy uruchomić
+skrót z pulpitu albo odpowiedni plik `stopa.exe` lub `lawa.exe` z lokalizacji instalacji
+(np. *C:\ABC6\EXE*). Przy uruchamianiu można wybrać plik zadania z końcówką *.STO*
+w celu wczytania wcześniej zapisanych wyników. Przy zamykaniu można zapisać wyniki do
+pliku z końcówką *.STO*. Pierwsze uruchomienie należy wykonać z poziomu programu **ABC**.
 
 W każdym typie zadania, w którym wprowadzono podpory węzłowe lub typu `Słup` można
 zaprojektować stopę fundamentową. W programie **ABC Płyta** dla podpór typu `Ściana`
