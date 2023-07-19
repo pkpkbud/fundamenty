@@ -44,11 +44,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6-4.1.0-win32.msi)
-- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6p-4.1.0-win32.msi)
-- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6r-4.1.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6s-4.1.0-win32.msi)
-- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/4.1.0/Fundamenty-ABC6t-4.1.0-win32.msi)
+- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6-5.0.0-win32.msi)
+- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6p-5.0.0-win32.msi)
+- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6r-5.0.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6s-5.0.0-win32.msi)
+- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6t-5.0.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -98,7 +98,7 @@ ponieważ fundamenty będą projektowane na te same obciążenia co użyte w że
 również możliwość dodania ciężaru własnego ścian i słupów do obciążeń po włączeniu
 opcji `Dodaj ciężar ściany`. Przycisk `Usuń` usuwa wcześniej zadane miejsca.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/872270df-3ec7-4280-8d68-b1a4ad738b21)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/4722f4d9-9307-4c1b-a887-4f82979e7ef5)
 
 ### Wybór miejsca
 
@@ -111,7 +111,7 @@ Jej dodanie rozkłada obciążenie na większej długości.
 
 ### Podłoże
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/018451d4-eb38-4c25-b58e-51d8cd049219)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/b1ed0afd-03fd-4ddf-b856-fb7109b879c1)
 
 W oknie można zdefiniować `Głębokość posadowienia`, którą należy liczyć od najniższego
 poziomu naziomu. W celu uwzględnienia sił wyporu spowodowanych wodą gruntową należy
@@ -140,7 +140,7 @@ i typ konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `OK` wartości
 parametrów w oknie `Podłoże` są aktualizowane oraz blokowane.
 W celu ich zmiany należy odznaczyć opcję `Metoda B normy PN-81 B-03020`.
 
-![image](https://user-images.githubusercontent.com/55211992/231169541-c2458cf9-adfb-4162-8989-cabd4d8284e7.png)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/d0b79951-9061-4781-8a0f-c965f7e330a0)
 
 W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
 `Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć
@@ -153,7 +153,7 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/a4f95e4f-5f3f-4c4a-8140-bfc2da9e4424)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/f9b94c64-3765-417b-ba85-700093ab4b17)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -162,11 +162,17 @@ poniżej elementów.
 **Ramka z danymi po lewej stronie**, gdzie podobnie jak na pierwszej planszy należy
 podać wartości, tym razem dotyczące przyjętych wymiarów, materiałów, otuliny oraz
 zbrojenia. Kierunek X i Y jest zgodny z układem osi przyjętym w programach **ABC**.
-`Opis` można dowolnie modyfikować, domyślnie wpisany jest numer węzła.
+`Opis` można dowolnie modyfikować, domyślnie wpisany jest numer węzła. Zaznaczenie opcji
+`Okrągła` pozwala na projektowanie niezbrojonych, pionowo obciążonych stóp o podstawie
+kołowej o promieniu R według normy *PN-81 B-03020*, gdzie przyjmuje się B = L = 1,77 R.
+Przycisk `Obróć` umożliwia obracanie stopy o 90 stopni, podmieniana jest wartość X z Y.
 `Wysokość` fundamentu to wartość od poziomu posadowienia (głębokości wykopu) w górę.
+Przycisk `Centruj` umożliwia zerowanie mimośrodów, czyli centralne ustawienie środka
+słupa względem środka fundamentu. Ponowne wciśnięcie przywraca wartości przed centrowaniem.
 W celu policzenia ławy jako fundamentu pasmowego o nieskończonej długości należy
 odznaczyć opcję `Długość`. W **ABC Płyta** wymiary słupa, ściany oraz dane fundamentu
-są pobierane z opisu podpory. W innych przypadkach są przyjmowane wartości domyślne.
+są pobierane z opisu podpory z wyjątkiem słupów okrągłych. Aby je zadać, należy
+zaznaczyć opcję `Okrągły`. W innych przypadkach są przyjmowane wartości domyślne.
 
 ![image](https://github.com/pkpkbud/fundamenty/assets/55211992/7c280982-7f00-4da0-ae3f-20141f9460d6)
 
@@ -206,13 +212,13 @@ porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wart
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/b1b29b24-b869-4fa5-a34f-5b5530793255)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/12fea5d2-468b-417d-9edc-57d692889516)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
 p. 12.9.3 normy *PN-EN 1992-1-1*. Wynik koloru pomarańczowego oznacza, że wysokość
 fundamentu jest mniejsza niż zalecany podwójny wysięg odsadzki.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/b8121615-3bf9-4483-900a-1dadff3498ee)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/ac9f895b-6243-441d-9c1e-51a6bbfad34a)
 
 Jeżeli nie jest spełniony warunek to zbrojenie jest wymiarowane na zginanie zgodnie
 z normą *PN-EN 1992-1-1* w przekroju cofniętym od krawędzi na odległość 0,15 wymiaru
@@ -231,7 +237,7 @@ myśl p. 6.4.2 (2) *PN-EN 1992-1-1*, a dla ławy w odległości 1d od skraju śc
 Odległość krytyczna podana jest w opisie warunku. W przypadku, gdy obwód kontrolny
 wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/67fe7b72-453c-497b-9fd4-f6df387edc0a)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/432e1286-f110-488b-94ca-0fb1fe01c588)
 
 **Rysunek w centralnej części** przedstawia geometrię fundamentu w rzucie z góry w
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
@@ -255,8 +261,8 @@ dużych wartościach sił lub słabym podłożu mogą trwać dłuższą chwilę.
 - Przycisk `Podłoże` otwiera ponownie wcześniej opisane okno [Podłoże](#podłoże).
 - Przycisk `Obciążenia` otwiera okno z wartościami obliczeniowych sił skupionych i
 rozłożonych. Po włączeniu opcji `Własne` wszystkie wartości obciążeń można
-dowolnie modyfikować oraz można wybrać wariant z obwiedni sił. Przycisk z czerwonym `Z`
-zeruje wszystkie obciążenia, ponowne wciśnięcie przywraca wartości przed zerowaniem.
+dowolnie modyfikować oraz można wybrać wariant z obwiedni sił. Przycisk `Zeruj`
+zeruje wszystkie obciążenia. Ponowne wciśnięcie przywraca wartości przed zerowaniem.
 - Przycisk `Ustawienia` zawiera dodatkowe opcje obliczeniowe oraz konfigurację wartości
 parametrów takich jak dane materiałowe i częściowe współczynniki bezpieczeństwa (które
 można przywrócić do wartości normowych przyciskiem `NA.2`). W dodatkowych opcjach
