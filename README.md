@@ -15,14 +15,17 @@ Szczegółowy opis działania zawarty jest w [instrukcji](#instrukcja).
 Cena **600,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
 o podatek VAT w wysokości 23%.
 
-Wymagana aktualizacja programu **ABC** do wersji 6.23 zgodnie z
+Wymagana jest aktualizacja programu **ABC** do wersji minimum 6.23 zgodnie z
 [cennikiem](https://www.pro-soft.gliwice.pl/cennik.html).
-Jeden zakup dotyczy jednej licencji (jednego klucza lub użytkownika) i jest niezależny
-od ilości programów. Do pobrania, aktualizacji oraz autoryzacji wymagane jest
-połączenie z siecią.
+Do pobrania, aktualizacji oraz autoryzacji modułu wymagane jest połączenie z siecią.
 
-W celu zakupu prosimy o [kontakt](#kontakt). Zakupy w formie grupowej prowadzi firma
-[TINSERWIS](https://www.tinserwis.pl/), gdzie można uzyskać maksymalnie 50% rabatu.
+Jeden zakup dotyczy jednej licencji (jednego klucza USB lub jednego użytkownika) i jest
+niezależny od ilości programów. Kupując więcej niż jedną licencję otrzymuje się upusty:
+drugi i trzeci egzemplarz - 40%, czwarty i dalsze egzemplarze - 60%.
+
+Zakupy w formie grupowej prowadzi firma [TINSERWIS](https://www.tinserwis.pl/),
+gdzie można uzyskać maksymalnie 50% rabatu. Istnieje możliwość dzierżawy modułu razem
+z programami **ABC**. W celu zakupu i dzierżawy prosimy o [kontakt](#kontakt).
 
 ```
 Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
@@ -39,16 +42,16 @@ na przetwarzanie swoich danych osobowych w celu obsługi zakupu licencji.
 Plik instalacyjny pobieramy w zależności od tego, jaki program **ABC** posiadamy na
 kluczu USB.
 
-W przypadku posiadania kilku kluczy, moduł instalujemy kilka razy w lokalizacji
+W przypadku posiadania kilku kluczy USB, moduł instalujemy kilka razy w lokalizacji
 programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6-5.0.0-win32.msi)
-- [Mam tylko **ABC Płyta**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6p-5.0.0-win32.msi)
-- [Mam tylko **ABC Rama3D**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6r-5.0.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6s-5.0.0-win32.msi)
-- [Mam tylko **ABC Tarcza**](https://github.com/pkpkbud/fundamenty/releases/download/5.0.0/Fundamenty-ABC6t-5.0.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.0.0/Fundamenty-ABC6-6.0.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.0.0/Fundamenty-ABC6p-6.0.0-win32.msi)
+- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.0.0/Fundamenty-ABC6r-6.0.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.0.0/Fundamenty-ABC6s-6.0.0-win32.msi)
+- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.0.0/Fundamenty-ABC6t-6.0.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -145,7 +148,8 @@ W celu ich zmiany należy odznaczyć opcję `Metoda B normy PN-81 B-03020`.
 W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
 `Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć
 `Sprawdź osiadanie` i podać `M0`, edometryczny moduł ściśliwości pierwotnej gruntu.
-`Wartość graniczna osiadania` definiowana jest w oknie `Ustawienia`.
+`Graniczna wartość osiadania` oraz `Graniczna wartość różnicy osiadań`
+definiowana jest w oknie `Ustawienia`.
 
 Przycisk `Budowla wysoka lub hala z suwnicą` zmienia parametry wymiarowania nie
 dopuszczając, aby siła wypadkowa wychodziła poza rdzeń podstawy oraz aby nie było za
@@ -153,7 +157,7 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/f9b94c64-3765-417b-ba85-700093ab4b17)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/c03641a8-4d28-4032-9a59-e52b56da09e7)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -203,16 +207,19 @@ połowa odległości między narożem, w którym występuje odrywanie, a prostą
 osi obojętnej przeprowadzonej przez środek fundamentu.
 - Dopuszczalne naprężenia krawędziowe, które są porównywane z wartością graniczną podaną
 na pierwszej planszy modułu [Podłoże](#podłoże).
-- Przybliżone osiadania całkowite, obliczone metodą sumowania odkształceń warstw
-podłoża według punktu F.1 normy. Metoda ta jest analogiczna do zalecanych zasad normy
-*PN-81 B-03020*.
+- Osiadania średnie, obliczone metodą sumowania odkształceń warstw podłoża według punktu
+F.1 normy. Metoda ta jest analogiczna do zalecanych zasad normy *PN-81 B-03020*.
+- Różnica osiadań, obliczona w sposób analogiczny do osiadań średnich, zamiast naprężeń
+średnich uwzględnia się maksymalne i minimalne. Warunek można interpretować jako
+ograniczenie obrotu fundamentu wywołane nierównomiernym osiadaniem naroży od
+mimośrodowego obciążenia.
 - Stosunek nacisków na podłoże, który jest zaleceniem z doświadczeń praktyki projektowej
 w celu ograniczenia nierównomiernego osiadania fundamentu. Sprawdzany jest poprzez
 porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wartościami
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/12fea5d2-468b-417d-9edc-57d692889516)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/ee21bf84-755f-45b3-bd98-57f1d05d8026)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
 p. 12.9.3 normy *PN-EN 1992-1-1*. Wynik koloru pomarańczowego oznacza, że wysokość
@@ -273,8 +280,9 @@ sposobu wyznaczania momentów gnących do wymiarowania zbrojenia stopy. Włącze
 `Pokazuj sprawdzenie zerowych warunków i minimalne zbrojenie` powoduje, że w ramce z
 wynikami są pokazywane również warunki, gdy stopień wytężenia wynosi 0% oraz sprawia,
 że fundament jest liczony jako żelbetowy. Osiadanie jest porównywane z wartością
-podaną w `Graniczna wartość osiadania`. `Maksymalna proporcja L:B w "Dobierz"` służy
-do wybrania maksymalnej proporcji długości do szerokości stopy fundamentowej
+podaną w `Graniczna wartość osiadania`. Różnica osiadań jest porównywana z wartością
+podaną w `Graniczna wartość różnicy osiadań`. `Maksymalna proporcja L:B w "Dobierz"`
+służy do wybrania maksymalnej proporcji długości do szerokości stopy fundamentowej
 szukanej funkcją `Dobierz`. Wybranie `1:1` sprawia, że stopa w rzucie jest kwadratowa.
 - Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
 modułu schowek zostaje wyczyszczony.
@@ -289,6 +297,8 @@ i uruchamia się instalacja. Zaleca się zamknięcie programu **ABC** przed inst
 - Przycisk `Zamknij` zapisuje wyniki i zamyka moduł, skąd można przejść do wyboru
 kolejnego miejsca. W przypadku stóp fundamentowych miejsca zaprojektowane będą opisane
 *Stopa*, a podpowiadane będzie kolejne miejsce z największą reakcją pionową.
+- Przełączanie opcji `Zawsze na wierzchu` powoduje przypięcie lub odpięcie modułu ponad
+innymi oknami.
 - Zaznaczenie opcji `Domyślne` powoduje, że po zamknięciu modułu bieżące ustawienia
 zostają zapisane jako domyślne do wymiarowania kolejnych miejsc.
 
