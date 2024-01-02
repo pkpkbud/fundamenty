@@ -12,7 +12,7 @@ Szczegółowy opis działania zawarty jest w [instrukcji](#instrukcja).
 
 ## Zakup
 
-Cena **600,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
+Cena **800,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
 o podatek VAT w wysokości 23%.
 
 Wymagana jest aktualizacja programu **ABC** do wersji minimum 6.23 zgodnie z
