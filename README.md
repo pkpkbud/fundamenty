@@ -82,7 +82,7 @@ w celu wczytania wcześniej zapisanych wyników. Przy zamykaniu można zapisać 
 pliku z końcówką *.STO*. Pierwsze uruchomienie należy wykonać z poziomu programu **ABC**.
 
 W każdym typie zadania, w którym wprowadzono podpory węzłowe lub typu `Słup` można
-zaprojektować stopę fundamentową. W programie **ABC Płyta** dla podpór typu `Ściana`
+zaprojektować stopę fundamentową. W programach **ABC** dla podpór typu `Ściana`
 można zaprojektować ławę fundamentową. W wynikach zadania w menu `Wymiar` dostępne
 są opcje `Projektowanie stopy` oraz `Projektowanie ławy`. W przypadku, gdy ta możliwość
 nie jest dostępna trzeba zaktualizować program **ABC** do wersji 6.23, włączyć pełny
@@ -174,9 +174,9 @@ Przycisk `Obróć` umożliwia obracanie stopy o 90 stopni, podmieniana jest wart
 Przycisk `Centruj` umożliwia zerowanie mimośrodów, czyli centralne ustawienie środka
 słupa względem środka fundamentu. Ponowne wciśnięcie przywraca wartości przed centrowaniem.
 W celu policzenia ławy jako fundamentu pasmowego o nieskończonej długości należy
-odznaczyć opcję `Długość`. W **ABC Płyta** wymiary słupa, ściany oraz dane fundamentu
-są pobierane z opisu podpory z wyjątkiem słupów okrągłych. Aby je zadać, należy
-zaznaczyć opcję `Okrągły`. W innych przypadkach są przyjmowane wartości domyślne.
+odznaczyć opcję `Długość`. Wymiary słupa, ściany oraz dane fundamentu są pobierane
+z opisu podpory z wyjątkiem słupów okrągłych. Aby je zadać, należy zaznaczyć opcję
+`Okrągły`. W innych przypadkach są przyjmowane wartości domyślne.
 
 ![image](https://github.com/pkpkbud/fundamenty/assets/55211992/7c280982-7f00-4da0-ae3f-20141f9460d6)
 
