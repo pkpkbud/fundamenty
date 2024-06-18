@@ -27,16 +27,6 @@ Zakupy w formie grupowej prowadzi firma [TINSERWIS](https://www.tinserwis.pl/),
 gdzie można uzyskać maksymalnie 50% rabatu. Istnieje możliwość dzierżawy modułu razem
 z programami **ABC**. W celu zakupu i dzierżawy prosimy o [kontakt](#kontakt).
 
-```
-Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
-Jest sprzedawany jako narzędzie do wsparcia zarobkowego procesu projektowego.
-Jest dostarczany "taki jaki jest" i nie ma gwarancji, że jest wolny od błędów pomimo
-dołożenia wszelkich starań. Autor modułu nie ponosi odpowiedzialności za skutki powstałe
-w wyniku nieumiejętnego posługiwania się oprogramowaniem, w tym związane z utratą
-danych. Osoba kupująca dobrowolnie wyraża zgodę na powyższe warunki licencyjne oraz
-na przetwarzanie swoich danych osobowych w celu obsługi zakupu licencji.
-```
-
 ## Instalacja
 
 Plik instalacyjny pobieramy w zależności od tego, jaki program **ABC** posiadamy na
@@ -47,17 +37,27 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.1.3/Fundamenty-ABC6-6.1.3-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.1.3/Fundamenty-ABC6p-6.1.3-win32.msi)
-- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.1.3/Fundamenty-ABC6r-6.1.3-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.1.3/Fundamenty-ABC6s-6.1.3-win32.msi)
-- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.1.3/Fundamenty-ABC6t-6.1.3-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.0/Fundamenty-ABC6-6.2.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.0/Fundamenty-ABC6p-6.2.0-win32.msi)
+- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.0/Fundamenty-ABC6r-6.2.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.0/Fundamenty-ABC6s-6.2.0-win32.msi)
+- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.0/Fundamenty-ABC6t-6.2.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
 
 Spis zmian oraz poprzednie wersje są dostępne w serwisie
 [GitHub](https://github.com/pkpkbud/fundamenty/releases).
+
+```
+Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
+Jest sprzedawany jako narzędzie do wsparcia zarobkowego procesu projektowego.
+Jest dostarczany "taki jaki jest" i nie ma gwarancji, że jest wolny od błędów pomimo
+dołożenia wszelkich starań. Autor modułu nie ponosi odpowiedzialności za skutki powstałe
+w wyniku nieumiejętnego posługiwania się oprogramowaniem, w tym związane z utratą
+danych. Instalujący dobrowolnie wyraża zgodę na powyższe warunki licencyjne oraz
+na przetwarzanie udostępnionych danych osobowych w celu obsługi zakupu licencji.
+```
 
 ## Wideo
 
@@ -77,9 +77,7 @@ pola lub wciskając klawisze strzałek `↑`-`↓` na klawiaturze.
 
 Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy uruchomić
 skrót z pulpitu albo odpowiedni plik `stopa.exe` lub `lawa.exe` z lokalizacji instalacji
-(np. *C:\ABC6\EXE*). Przy uruchamianiu można wybrać plik zadania z końcówką *.STO*
-w celu wczytania wcześniej zapisanych wyników. Przy zamykaniu można zapisać wyniki do
-pliku z końcówką *.STO*. Pierwsze uruchomienie należy wykonać z poziomu programu **ABC**.
+(np. *C:\ABC6\EXE*). **Pierwsze uruchomienie należy wykonać z poziomu programu ABC.**
 
 W każdym typie zadania, w którym wprowadzono podpory węzłowe lub typu `Słup` można
 zaprojektować stopę fundamentową. W programach **ABC** dla podpór typu `Ściana`
@@ -157,7 +155,7 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/c03641a8-4d28-4032-9a59-e52b56da09e7)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/2700f2c7-1d6e-462d-a1cd-c4e3f3d4fc65)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -286,6 +284,10 @@ podaną w `Graniczna wartość osiadania`. Różnica osiadań jest porównywana 
 podaną w `Graniczna wartość różnicy osiadań`. `Maksymalna proporcja L:B w "Dobierz"`
 służy do wybrania maksymalnej proporcji długości do szerokości stopy fundamentowej
 szukanej funkcją `Dobierz`. Wybranie `1:1` sprawia, że stopa w rzucie jest kwadratowa.
+- Przycisk `Wczytaj` umożliwia otwarcie pliku zadania z końcówką *.STO* w celu wczytania
+wcześniej zapisanych danych.
+- Przycisk `Zapisz` pozwala na zapisanie danych do pliku z końcówką *.STO* w wybranej
+lokalizacji na dysku.
 - Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
 modułu schowek zostaje wyczyszczony.
 - Przycisk `Do Worda` otwiera nowy dokument zawierający notkę obliczeniową z rysunkiem
