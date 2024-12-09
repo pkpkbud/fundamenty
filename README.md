@@ -38,11 +38,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.4/Fundamenty-ABC6-6.2.4-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.4/Fundamenty-ABC6p-6.2.4-win32.msi)
-- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.4/Fundamenty-ABC6r-6.2.4-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.4/Fundamenty-ABC6s-6.2.4-win32.msi)
-- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.2.4/Fundamenty-ABC6t-6.2.4-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6-6.3.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6p-6.3.0-win32.msi)
+- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6r-6.3.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6s-6.3.0-win32.msi)
+- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6t-6.3.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -285,6 +285,7 @@ podaną w `Graniczna wartość osiadania`. Różnica osiadań jest porównywana 
 podaną w `Graniczna wartość różnicy osiadań`. `Maksymalna proporcja L:B w "Dobierz"`
 służy do wybrania maksymalnej proporcji długości do szerokości stopy fundamentowej
 szukanej funkcją `Dobierz`. Wybranie `1:1` sprawia, że stopa w rzucie jest kwadratowa.
+Przycisk `Folder` pozwala określić domyślny folder do wczytywania i zapisywania plików.
 - Przycisk `Wczytaj` umożliwia otwarcie pliku zadania z końcówką *.STO* w celu wczytania
 wcześniej zapisanych danych.
 - Przycisk `Zapisz` pozwala na zapisanie danych do pliku z końcówką *.STO* w wybranej
