@@ -62,6 +62,8 @@ na przetwarzanie udostępnionych danych osobowych w celu obsługi zakupu licencj
 
 ## Wideo
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T7rEyB1jpJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MAA1BrUQ1LE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dykUG6P5lk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -218,7 +220,7 @@ porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wart
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
 
-![image](https://github.com/user-attachments/assets/71d751df-6265-4958-beaf-7e57bd13b597)
+![image](https://github.com/user-attachments/assets/cd9322c2-4285-4214-bb0a-96502689969e)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
 p. 12.9.3 normy *PN-EN 1992-1-1*. Wynik koloru pomarańczowego oznacza, że wysokość
@@ -254,7 +256,7 @@ przycisk myszy. Przydaje się to w przypadku, gdy opisy są blisko siebie i są 
 do odczytania. Optymalne położenie rysunku w oknie najłatwiej uzyskać akceptując
 ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/dc16b0ac-c4fb-4cc5-8e7b-e8ca68ddb243)
+![image](https://github.com/user-attachments/assets/009cb049-2de5-4ffc-a66c-bf2d79407974)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje rysunek i część z wynikami dla zadanych wartości.
