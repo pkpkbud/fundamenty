@@ -38,11 +38,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6-6.3.0-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6p-6.3.0-win32.msi)
-- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6r-6.3.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6s-6.3.0-win32.msi)
-- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.0/Fundamenty-ABC6t-6.3.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6-6.3.1-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6p-6.3.1-win32.msi)
+- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6r-6.3.1-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6s-6.3.1-win32.msi)
+- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6t-6.3.1-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -156,7 +156,7 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/2700f2c7-1d6e-462d-a1cd-c4e3f3d4fc65)
+![image](https://github.com/user-attachments/assets/f5787629-c3fe-4b1d-90f3-ce1e854b7749)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -218,7 +218,7 @@ porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wart
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/ee21bf84-755f-45b3-bd98-57f1d05d8026)
+![image](https://github.com/user-attachments/assets/71d751df-6265-4958-beaf-7e57bd13b597)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
 p. 12.9.3 normy *PN-EN 1992-1-1*. Wynik koloru pomarańczowego oznacza, że wysokość
@@ -243,7 +243,7 @@ myśl p. 6.4.2 (2) *PN-EN 1992-1-1*, a dla ławy w odległości 1d od skraju śc
 Odległość krytyczna podana jest w opisie warunku. W przypadku, gdy obwód kontrolny
 wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/432e1286-f110-488b-94ca-0fb1fe01c588)
+![image](https://github.com/user-attachments/assets/be682ae7-a2f6-4814-ae63-23bb85a7a652)
 
 **Rysunek w centralnej części** przedstawia geometrię fundamentu w rzucie z góry w
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
@@ -285,11 +285,12 @@ podaną w `Graniczna wartość osiadania`. Różnica osiadań jest porównywana 
 podaną w `Graniczna wartość różnicy osiadań`. `Maksymalna proporcja L:B w "Dobierz"`
 służy do wybrania maksymalnej proporcji długości do szerokości stopy fundamentowej
 szukanej funkcją `Dobierz`. Wybranie `1:1` sprawia, że stopa w rzucie jest kwadratowa.
-Przycisk `Folder` pozwala określić domyślny folder do wczytywania i zapisywania plików.
 - Przycisk `Wczytaj` umożliwia otwarcie pliku zadania z końcówką *.STO* w celu wczytania
 wcześniej zapisanych danych.
 - Przycisk `Zapisz` pozwala na zapisanie danych do pliku z końcówką *.STO* w wybranej
 lokalizacji na dysku.
+- Przycisk `Folder` pozwala określić domyślny folder do wczytywania i zapisywania
+plików z danymi.
 - Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
 modułu schowek zostaje wyczyszczony.
 - Przycisk `Do Worda` otwiera nowy dokument zawierający notkę obliczeniową z rysunkiem
