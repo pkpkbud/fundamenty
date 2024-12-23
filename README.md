@@ -245,7 +245,7 @@ myśl p. 6.4.2 (2) *PN-EN 1992-1-1*, a dla ławy w odległości 1d od skraju śc
 Odległość krytyczna podana jest w opisie warunku. W przypadku, gdy obwód kontrolny
 wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 
-![image](https://github.com/user-attachments/assets/be682ae7-a2f6-4814-ae63-23bb85a7a652)
+![image](https://github.com/user-attachments/assets/3510220e-7b90-418c-9895-e24857d9b849)
 
 **Rysunek w centralnej części** przedstawia geometrię fundamentu w rzucie z góry w
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
@@ -256,7 +256,7 @@ przycisk myszy. Przydaje się to w przypadku, gdy opisy są blisko siebie i są 
 do odczytania. Optymalne położenie rysunku w oknie najłatwiej uzyskać akceptując
 ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
 
-![image](https://github.com/user-attachments/assets/009cb049-2de5-4ffc-a66c-bf2d79407974)
+![image](https://github.com/pkpkbud/fundamenty/assets/55211992/dc16b0ac-c4fb-4cc5-8e7b-e8ca68ddb243)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje rysunek i część z wynikami dla zadanych wartości.
