@@ -82,6 +82,8 @@ Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy u
 skrót z pulpitu albo odpowiedni plik `stopa.exe` lub `lawa.exe` z lokalizacji instalacji
 (np. *C:\ABC6\EXE*). **Pierwsze uruchomienie należy wykonać z poziomu programu ABC.**
 
+![image](https://github.com/user-attachments/assets/2f8600b2-e011-4c78-8b2b-64817a7e84dd)
+
 W każdym typie zadania, w którym wprowadzono podpory węzłowe lub typu `Słup` można
 zaprojektować stopę fundamentową. W programach **ABC** dla podpór typu `Ściana`
 można zaprojektować ławę fundamentową. W wynikach zadania w menu `Wymiar` dostępne
@@ -158,11 +160,11 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://github.com/user-attachments/assets/8a7f6848-0b38-4728-b416-939186028125)
-
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
 poniżej elementów.
+
+![image](https://github.com/user-attachments/assets/8a7f6848-0b38-4728-b416-939186028125)
 
 **Ramka z danymi po lewej stronie**, gdzie podobnie jak na pierwszej planszy należy
 podać wartości, tym razem dotyczące przyjętych wymiarów, materiałów, otuliny oraz
@@ -251,7 +253,7 @@ wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
 wartościami naprężeń maksymalnych i minimalnych na każdej krawędzi. Dodatkowo na
 rysunku jest układ osi, schematyczne zbrojenie oraz poziomy w przypadku ławy.
-Rysunek można przybliżać za pomocą kółka myszy oraz przesuwać trzymając lewy
+Rysunek można przybliżać za pomocą pokrętła myszy oraz przesuwać trzymając lewy
 przycisk myszy. Przydaje się to w przypadku, gdy opisy są blisko siebie i są trudne
 do odczytania. Optymalne położenie rysunku w oknie najłatwiej uzyskać akceptując
 ponownie dowolny parametr klawiszem `Enter` lub przyciskiem `Oblicz`.
