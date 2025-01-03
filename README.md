@@ -12,7 +12,7 @@ Szczegółowy opis działania zawarty jest w [instrukcji](#instrukcja).
 
 ## Zakup
 
-Cena **800,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
+Cena **900,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
 o podatek VAT w wysokości 23%.
 
 Wymagana jest aktualizacja programu **ABC** do wersji minimum 6.23 zgodnie z
@@ -38,11 +38,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6-6.3.1-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6p-6.3.1-win32.msi)
-- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6r-6.3.1-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6s-6.3.1-win32.msi)
-- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.3.1/Fundamenty-ABC6t-6.3.1-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.4.0/Fundamenty-ABC6-6.4.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.4.0/Fundamenty-ABC6p-6.4.0-win32.msi)
+- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.4.0/Fundamenty-ABC6r-6.4.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.4.0/Fundamenty-ABC6s-6.4.0-win32.msi)
+- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.4.0/Fundamenty-ABC6t-6.4.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -102,7 +102,7 @@ ponieważ fundamenty będą projektowane na te same obciążenia co użyte w że
 również możliwość dodania ciężaru własnego ścian i słupów do obciążeń po włączeniu
 opcji `Dodaj ciężar ściany`. Przycisk `Usuń` usuwa wcześniej zadane miejsca.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/4722f4d9-9307-4c1b-a887-4f82979e7ef5)
+![image](https://github.com/user-attachments/assets/5f267596-8f0e-45a1-aec4-1f9389700013)
 
 ### Wybór miejsca
 
@@ -115,7 +115,7 @@ Jej dodanie rozkłada obciążenie na większej długości.
 
 ### Podłoże
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/b1ed0afd-03fd-4ddf-b856-fb7109b879c1)
+![image](https://github.com/user-attachments/assets/4a1c2ff2-a3d0-444c-a775-e64be0d640c3)
 
 W oknie można zdefiniować `Głębokość posadowienia`, którą należy liczyć od najniższego
 poziomu naziomu. W celu uwzględnienia sił wyporu spowodowanych wodą gruntową należy
@@ -144,7 +144,7 @@ i typ konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `OK` wartości
 parametrów w oknie `Podłoże` są aktualizowane oraz blokowane.
 W celu ich zmiany należy odznaczyć opcję `Metoda B normy PN-81 B-03020`.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/d0b79951-9061-4781-8a0f-c965f7e330a0)
+![image](https://github.com/user-attachments/assets/d2fd98ef-5506-40f2-8d30-ce4b3b91f1ae)
 
 W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
 `Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć
@@ -158,7 +158,7 @@ dużej dysproporcji pomiędzy minimalnymi i maksymalnymi naprężeniami krawędz
 
 ### Projektowanie
 
-![image](https://github.com/user-attachments/assets/f5787629-c3fe-4b1d-90f3-ce1e854b7749)
+![image](https://github.com/user-attachments/assets/8a7f6848-0b38-4728-b416-939186028125)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -220,13 +220,13 @@ porównanie ilorazu maksymalnych i minimalnych naprężeń krawędziowych z wart
 dopuszczalnymi z normy *PN-93 B-03201* lub z książki dr inż. Olgierda Puły
 *Projektowanie fundamentów bezpośrednich według Eurokodu 7*.
 
-![image](https://github.com/user-attachments/assets/cd9322c2-4285-4214-bb0a-96502689969e)
+![image](https://github.com/user-attachments/assets/598f66d5-49dd-4fcb-b8a8-1ca924bdf6a5)
 
 Moduł sprawdza, czy można element można zaprojektować jako niezbrojony zgodnie z
 p. 12.9.3 normy *PN-EN 1992-1-1*. Wynik koloru pomarańczowego oznacza, że wysokość
 fundamentu jest mniejsza niż zalecany podwójny wysięg odsadzki.
 
-![image](https://github.com/pkpkbud/fundamenty/assets/55211992/ac9f895b-6243-441d-9c1e-51a6bbfad34a)
+![image](https://github.com/user-attachments/assets/4750f2ec-30dc-429e-af42-b6dbe99539d4)
 
 Jeżeli nie jest spełniony warunek to zbrojenie jest wymiarowane na zginanie zgodnie
 z normą *PN-EN 1992-1-1* w przekroju cofniętym od krawędzi na odległość 0,15 wymiaru
@@ -245,7 +245,7 @@ myśl p. 6.4.2 (2) *PN-EN 1992-1-1*, a dla ławy w odległości 1d od skraju śc
 Odległość krytyczna podana jest w opisie warunku. W przypadku, gdy obwód kontrolny
 wykracza poza obręb powierzchni stopy nie zachodzi mechanizm przebicia.
 
-![image](https://github.com/user-attachments/assets/3510220e-7b90-418c-9895-e24857d9b849)
+![image](https://github.com/user-attachments/assets/b01fcace-6e6c-483d-a474-1a965128b773)
 
 **Rysunek w centralnej części** przedstawia geometrię fundamentu w rzucie z góry w
 przypadku stopy lub przekrój poprzeczny w przypadku ławy, wraz z przebiegiem i
