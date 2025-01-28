@@ -52,6 +52,12 @@ Spis zmian oraz poprzednie wersje są dostępne w serwisie
 
 ```
 Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
+Podczas jego tworzenia, autor posługiwał się aktualnymi normami z biblioteki PKN,
+poprzez Portal Polskiej Izby Inżynierów Budownictwa oraz literaturą techniczną,
+spośród której olbrzymim wsparciem była książka dr inż. Olgierda Puły pt.
+"Projektowanie fundamentów bezpośrednich według Eurokodu 7" (wydanie drugie).
+Moduł korzysta z bibliotek na otwartych licencjach typu: PSFL, BSD-3, Apache 2.0, MIT,
+takich jak: cryptography, cx-Freeze, matplotlib, numpy, Pillow, python-docx, pywin32.
 Jest sprzedawany jako narzędzie do wsparcia zarobkowego procesu projektowego.
 Jest dostarczany "taki jaki jest" i nie ma gwarancji, że jest wolny od błędów pomimo
 dołożenia wszelkich starań. Autor modułu nie ponosi odpowiedzialności za skutki powstałe
@@ -164,7 +170,7 @@ Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
 poniżej elementów.
 
-![image](https://github.com/user-attachments/assets/8a7f6848-0b38-4728-b416-939186028125)
+![image](https://github.com/user-attachments/assets/b390f412-2da4-46b0-bf55-7cae91343476)
 
 **Ramka z danymi po lewej stronie**, gdzie podobnie jak na pierwszej planszy należy
 podać wartości, tym razem dotyczące przyjętych wymiarów, materiałów, otuliny oraz
@@ -305,11 +311,13 @@ nowy plik *Nazwa_zadania.STO.DOCX* w lokalizacji zadania.
 razie potrzeby umożliwia pobranie i aktualizację do najnowszej wersji. Plik instalacyjny
 jest pobierany w tle, trzeba poczekać na jego pobranie. Następnie moduł jest wyłączany
 i uruchamia się instalacja. Zaleca się zamknięcie programu **ABC** przed instalacją.
+Pomarańczowy kolor czcionki przycisku sygnalizuje, że jest dostępna aktualizacja.
+- Przycisk `Instrukcja` otwiera niniejszą stronę internetową z instrukcją modułu.
 - Przycisk `Zamknij` zapisuje wyniki i zamyka moduł, skąd można przejść do wyboru
 kolejnego miejsca. W przypadku stóp fundamentowych miejsca zaprojektowane będą opisane
 *Stopa*, a podpowiadane będzie kolejne miejsce z największą reakcją pionową.
 - Przełączanie opcji `Zawsze na wierzchu` powoduje przypięcie lub odpięcie modułu ponad
-innymi oknami.
+innymi oknami (domyślnie włączony przy uruchamianiu z programu **ABC**).
 - Zaznaczenie opcji `Domyślne` powoduje, że po zamknięciu modułu bieżące ustawienia
 zostają zapisane jako domyślne do wymiarowania kolejnych miejsc.
 
