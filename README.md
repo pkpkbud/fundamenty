@@ -38,11 +38,11 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.5.0/Fundamenty-ABC6-6.5.0-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.5.0/Fundamenty-ABC6p-6.5.0-win32.msi)
-- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.5.0/Fundamenty-ABC6t-6.5.0-win32.msi)
-- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.5.0/Fundamenty-ABC6r-6.5.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.5.0/Fundamenty-ABC6s-6.5.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.6.0/Fundamenty-ABC6-6.6.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.6.0/Fundamenty-ABC6p-6.6.0-win32.msi)
+- [Mam tylko **ABC Tarcza** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.6.0/Fundamenty-ABC6t-6.6.0-win32.msi)
+- [Mam tylko **ABC Rama3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.6.0/Fundamenty-ABC6r-6.6.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/fundamenty/releases/download/6.6.0/Fundamenty-ABC6s-6.6.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -150,11 +150,11 @@ na podstawie zależności korelacyjnych z normy `PN-81 B-03020` oraz zalecane do
 naprężenia według tabeli 12-2 książki *Zarys geotechniki* Zenona Wiłuna.
 Po wyborze z menu rodzaju gruntu należy podać jego charakterystyczny parametr jak:
 stopień zagęszczenia i wilgotność (grunty niespoiste) lub stopień plastyczności
-i typ konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `OK` wartości
+i typ konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `Zastosuj` wartości
 parametrów w oknie `Podłoże` są aktualizowane oraz blokowane.
 W celu ich zmiany należy odznaczyć opcję `Metoda B normy PN-81 B-03020`.
 
-![image](https://github.com/user-attachments/assets/d2fd98ef-5506-40f2-8d30-ce4b3b91f1ae)
+![image](https://github.com/user-attachments/assets/e0b8d96e-db58-4ed7-9d70-09338099c303)
 
 W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
 `Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć
