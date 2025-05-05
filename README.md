@@ -93,11 +93,12 @@ skrót z pulpitu albo odpowiedni plik `stopa.exe` lub `lawa.exe` z lokalizacji i
 ![image](https://github.com/user-attachments/assets/2f8600b2-e011-4c78-8b2b-64817a7e84dd)
 
 W każdym typie zadania, w którym wprowadzono podpory węzłowe lub typu `Słup` można
-zaprojektować stopę fundamentową. W programach **ABC** dla podpór typu `Ściana`
-można zaprojektować ławę fundamentową. W wynikach zadania w menu `Wymiar` dostępne
-są opcje `Projektowanie stopy` oraz `Projektowanie ławy`. W przypadku, gdy ta możliwość
-nie jest dostępna trzeba zaktualizować program **ABC** do wersji 6.23, włączyć pełny
-zakres menu w **ABC** przyciskiem "M" lub wybrać z menu opcję `Pokaż → Wybór wymiarowania`.
+zaprojektować stopę fundamentową. W programach **ABC** dla podpór liniowych lub typu
+`Ściana` oraz prętów na podłożu można zaprojektować ławę fundamentową.
+W wynikach zadania w menu `Wymiar` dostępne są opcje `Projektowanie stopy` oraz
+`Projektowanie ławy`. W przypadku, gdy ta możliwość nie jest dostępna należy
+zaktualizować program **ABC** do wersji 6.23, włączyć pełny zakres menu w **ABC**
+przyciskiem "M" lub wybrać z menu opcję `Pokaż → Wybór wymiarowania`.
 
 ![image](https://github.com/pkpkbud/fundamenty/assets/55211992/775bd5e1-657d-4b8f-a272-fb3ec5c52b8e)
 
@@ -144,17 +145,17 @@ W celu sprawdzenia kolejnej warstwy gruntu, można skopiować listę z wynikami
 ![image](https://github.com/pkpkbud/fundamenty/assets/55211992/a3d827cb-d974-4a27-92d6-dce7b5996865)
 
 W celu definicji podłoża należy podać charakterystyczne wartości parametrów
-geotechnicznych na podstawie badań geologicznych gruntu lub z normowych tablic.
-Przycisk `Metoda B normy PN-81 B-03020` umożliwia wprowadzenie parametrów geotechnicznych
-na podstawie zależności korelacyjnych z normy `PN-81 B-03020` oraz zalecane dopuszczalne
-naprężenia według tabeli 12-2 książki *Zarys geotechniki* Zenona Wiłuna.
+geotechnicznych na podstawie badań geologicznych gruntu lub z normowych tablic. Przycisk
+`Metoda B normy PN-81 B-03020` umożliwia wprowadzenie parametrów geotechnicznych na
+podstawie zależności korelacyjnych z normy `PN-81 B-03020` oraz zalecane dopuszczalne
+naprężenia według tabeli 12-2 książki *Zarys geotechniki* Zenona Wiłuna (2013 wyd. 10).
 Po wyborze z menu rodzaju gruntu należy podać jego charakterystyczny parametr jak:
 stopień zagęszczenia i wilgotność (grunty niespoiste) lub stopień plastyczności
 i typ konsolidacji (grunty spoiste). Po zatwierdzeniu przyciskiem `Zastosuj` wartości
-parametrów w oknie `Podłoże` są aktualizowane oraz blokowane.
-W celu ich zmiany należy odznaczyć opcję `Metoda B normy PN-81 B-03020`.
+parametrów w oknie `Podłoże` są aktualizowane oraz blokowane. W celu ich zmiany należy
+odznaczyć opcję `Metoda B normy PN-81 B-03020`.
 
-![image](https://github.com/user-attachments/assets/e0b8d96e-db58-4ed7-9d70-09338099c303)
+![image](https://github.com/user-attachments/assets/66a63a9c-1dd0-46d8-9fac-148041a0c39b)
 
 W celu sprawdzenia warunku naprężeń krawędziowych należy włączyć i podać
 `Dopuszczalne naprężenia`. W celu sprawdzenia osiadania należy włączyć
