@@ -51,8 +51,8 @@ Spis zmian oraz poprzednie wersje są dostępne w serwisie
 [GitHub](https://github.com/pkpkbud/fundamenty/releases).
 
 ```
-LICENCJA © 2022÷2025 PKPKBUD
-============================
+LICENCJA © 2022÷2026 PKPKBUD Paweł Kowalski Projektowanie Konstrukcji Budowlanych
+=================================================================================
 Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
 Podczas jego tworzenia, autor posługiwał się aktualnymi normami z biblioteki PKN,
 poprzez Portal Polskiej Izby Inżynierów Budownictwa oraz literaturą techniczną,
