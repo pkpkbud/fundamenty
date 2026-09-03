@@ -1,4 +1,4 @@
-# Stopy i ławy w ABC
+# Stopy i ławy
 
 [Zakup](#zakup) | [Instalacja](#instalacja) | [Wideo](#wideo) | [Instrukcja](#instrukcja) | [Kontakt](#kontakt)
 
